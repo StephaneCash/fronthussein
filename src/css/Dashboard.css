@@ -1,0 +1,50 @@
+.main {
+    margin-top: 65px;
+}
+
+.contentDashboardEvaluate {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.contentDashboardEvaluate .MuiPaper-root {
+    border: 1px solid silver;
+    margin-right: 1rem;
+    height: 22vh;
+}
+
+.graphiques .MuiPaper-root {
+    border: 1px solid silver;
+    gap: 1rem;
+}
+
+.graphiques .MuiGrid-root{
+    margin-right: 1rem;
+}
+
+.grille {
+    max-width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 160px);
+    justify-content: center;
+    grid-gap: 5px;
+    grid-column: 89px;
+}
+
+.grille button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.grille button {
+    width: 160px;
+    height: auto;
+    transition: transform 0.4s;
+    border-radius: 1px;
+}
+
+.motifSelected {
+    background-color: #fff !important;
+    border: 1px solid #333 !important;
+}
